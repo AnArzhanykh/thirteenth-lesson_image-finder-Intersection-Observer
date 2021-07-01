@@ -1,0 +1,14 @@
+.search-form{
+    text-align: center;
+    padding: 20px;
+    
+    input {
+        width: 30%;
+        padding: 10px;
+        border: 2px solid blue;
+        border-radius: 10px;
+    }
+    :focus {
+        border: 2px solid goldenrod;
+    }
+}
