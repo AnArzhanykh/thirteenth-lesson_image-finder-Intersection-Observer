@@ -18,6 +18,4 @@ export default function observ(render) {
   
   const observer = new IntersectionObserver(callback, options);
   observer.observe(elementToObserve);
-  
-  
 }
